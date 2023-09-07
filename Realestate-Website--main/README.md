@@ -1,6 +1,6 @@
 # Domo Real Estate Website Frontend
 
-Welcome to the DOMO Real Estate website repository, your one-stop destination for all your property-related needs. Our web application empowers customers to explore a wide range of real estate opportunities, including property rentals, purchases, and sales. Built using a robust tech stack that includes HTML, CSS, JavaScript, the Django framework, Tailwind CSS, and PostgreSQL, this website provides a seamless and user-friendly experience for both property seekers and sellers.
+Welcome to the DOMO Real Estate website repository, your one-stop destination for all your property-related needs. We as a team have built this web application which empowers customers to explore a wide range of real estate opportunities, including property rentals, purchases, and sales. Built using a robust tech stack that includes HTML, CSS, JavaScript, the Django framework, Tailwind CSS, and PostgreSQL, this website provides a seamless and user-friendly experience for both property seekers and sellers.
 
 ## Table of Contents
 - [Features](#features)
