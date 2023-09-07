@@ -1,6 +1,6 @@
 # Domo Real Estate Website Frontend
 
-Welcome to the Domo Real Estate Company's frontend website repository. This project is designed to provide an intuitive and user-friendly interface for visitors to explore properties, get information about real estate services, and connect with our team. We've developed this website using HTML, CSS, Tailwind CSS, and JavaScript to ensure a seamless and enjoyable user experience.
+Welcome to the DOMO Real Estate website repository, your one-stop destination for all your property-related needs. Our web application empowers customers to explore a wide range of real estate opportunities, including property rentals, purchases, and sales. Built using a robust tech stack that includes HTML, CSS, JavaScript, the Django framework, Tailwind CSS, and PostgreSQL, this website provides a seamless and user-friendly experience for both property seekers and sellers.
 
 ## Table of Contents
 - [Features](#features)
@@ -11,11 +11,11 @@ Welcome to the Domo Real Estate Company's frontend website repository. This proj
 - [License](#license)
 
 ## Features
-- **Property Listings:** Browse a curated list of available properties with detailed descriptions, images, and pricing.
-- **Search and Filters:** Easily search for properties using filters such as location, property type, price range, and more.
-- **Interactive Map:** Explore properties on an interactive map to visualize their locations and nearby amenities.
-- **Responsive Design:** User-friendly interface optimized for various screen sizes, from desktop to mobile.
-- **Contact Form:** Connect with our team using the contact form to inquire about properties or services.
+- Property Listings: Browse through an extensive collection of properties, complete with detailed descriptions, high-quality images, and pricing information.
+- Search and Filter: Find the perfect property by using our advanced search and filtering options, allowing you to narrow down your choices based on location, type, price range, and more.
+- Property Management: List your properties for sale or rent, manage listings, and keep track of potential buyers and renters through our intuitive dashboard.
+- User Authentication: Create and manage your account, ensuring a personalized experience that remembers your preferences and saved properties.
+- Responsive Design: Enjoy a consistent and optimized experience across devices, from desktops to smartphones.
 
 ## Installation
 To view and interact with the Domo Real Estate website locally, follow these steps:
