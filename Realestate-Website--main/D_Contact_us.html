@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title> Contact Form </title>
+    <link rel="stylesheet" href="contactus.css" >
+    <link rel="stylesheet" href="floating_icon.css">
+    <link href="Mail.ico" rel="icon" type="image/x-icon"/>
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+  <body>
+    <div class="navbar">
+      <div class="container5">
+          <a class="logo" href="home.html"><img src="images/domologo.png" alt="DoMo"></a>
+         <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+
+          <nav>
+              
+              <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+              
+              <ul class="primary-nav">
+
+              </ul>
+
+              <ul class="secondary-nav">
+               <li><a href="home.html">Home</a></li>
+               <li><a href="buy.html">Buy</a></li>
+               <li><a href="rent.html">Rent</a></li>
+               <li><a href="sell.html">Sell</a></li>
+
+           </ul>
+           <ul class="tertiary-nav">
+               <li><a href="D_blog_grid.html">Blogs</a></li>
+               <li><a href="D_projects.html">Projects</a></li>
+               <li><a href="D_about_us.html">About Us</a></li>
+               <li class="go-premium-cta"><a href="D_Contact_us.html">Contact us</a></li>
+           </ul>
+          </nav>
+      </div>
+  </div>
+
+  <script>
+      const mobileBtn = document.getElementById('mobile-cta')
+            nav = document.querySelector('nav')
+            mobileBtnExit = document.getElementById('mobile-exit');
+
+      mobileBtn.addEventListener('click', () => {
+          nav.classList.add('menu-btn');
+      })
+
+      mobileBtnExit.addEventListener('click', () => {
+          nav.classList.remove('menu-btn');
+      })
+  </script>
+
+  <h1 class="con-text">DOMO helps you sell smart & sell easy</h1>
+
+    <a href="tel:1234567890" class="floating-icon"><i class="fa fa-phone"></i></a>
+    <a href="https:/wa.me/9892956959"  target="_blank" class="whatsapp_float"><i class="fa-brands fa-whatsapp whatsapp-icon"></i></a>
+
+    <div class="container">
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Contact Us</h3>
+          <p class="text">
+            Ready to embark on a journey of luxury living? Get in touch with our expert team today. 
+          </p>
+
+          <form action="index.html autocomplete="off">
+            <div class="contact-us-new">
+            <input type="radio" name="option" value="option1">  I am seeking to offer my home on rent<br>
+              <br>
+            
+              <input type="radio" name="option" value="option2">  I am interested in renting  a property<br>
+            </div >
+          
+          <!-- <p class="text">
+            You can reach us by using the contact form provided on our website or by calling us directly at 9892956959. <br><br>
+            Our office, conveniently located at 
+            Level 5, 505, C wing, Trade world Tower, Kamala Mills Compound, Lower Parel, Mumbai, Maharashtra 400013.
+            Is open to welcome you for personalized discussions about your real estate aspirations.
+          </p> -->
+
+          <!-- <div class="social-media">
+            <p> Connect with Me : </p>
+            <div class="social-icons">
+
+              <a href="https://github.com/Shahzaibfardeen" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+
+              <a href="https://www.linkedin.com/in/shahzaib-fardeen/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+
+              <a href="https://www.instagram.com/shahzaib_fardeen/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+
+              <a href="https://www.facebook.com/shahzaib.fardeen/" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+
+              <a href="https://twitter.com/shahzaibfardeen" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+              
+            </div>
+          </div> -->
+        </div>
+            
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+          
+        <h3 class="title"> Contact Me </h3>
+          
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for=""> Name </label>
+              <span> Name </span>
+            </div>
+            
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for=""> Email </label>
+              <span> Email </span>
+            </div>
+            
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for=""> Phone </label>
+              <span> Phone </span>
+            </div>
+            
+            <div class="input-container">
+              <select id="bhk" name="bhk">
+                <option value="1">1 BHK</option>
+                <option value="2">2 BHK</option>
+                <option value="3">3 BHK</option>
+                <option value="4">4 BHK</option>
+                <!-- Add more options as needed -->
+              </select>
+
+            </div>
+            <br>
+            
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-distributed">
+    
+      <div class="footer-left">
+
+          <a class="logofooter" href="home.html"><img src="images/domologo1.png" alt="DoMofooter"></a>
+
+          <p class="footer-links">
+              <a href="home.html" class="link-1">Home</a>
+              
+              <a href="buy.html">Buy</a>
+          
+              <a href="rent.html">Rent</a>
+          
+              <a href="sell.html">sell</a>
+              
+              <a href="D_blog_grid.html">Blogs</a>
+              
+              <a href="D_about_us.html">About Us</a>
+
+              <a href="D_Contact_us.html">Contact Us</a>
+
+          </p>
+
+          <p class="footer-company-name">Company Name © 2015</p>
+      </div>
+
+      <div class="footer-center">
+
+          <div>
+            <p class="icon-my"><a href="https://goo.gl/maps/LcjiNWjzscLYYGym7" >   <i class="fa fa-map-marker"></i></p>
+              <!-- <p><span>Level 5, 505, C wing, Trade world Tower,</span>Kamala Mills Compound, Lower Parel, Mumbai,</p> -->
+              <p>Level 5, 505, C wing, Trade world Tower<br>Kamala Mills Compound, Lower Parel, Mumbai,</p></a>
+          </div>
+
+          <div>
+           <p class="icon-my">  <a href="tel:9892956959" > <i class="fa fa-phone"></i></p>
+              <p>+91 9892956959</p></a>
+          </div>
+
+          <div>
+             <p class="icon-my" ><a href="mailto:Info@domorealestate.in" ><i class="fa fa-envelope"></i></p>
+              <p><a href="mailto:Info@domorealestate.in">Info@domorealestate.in</a></p></a>
+          </div>
+
+      </div>
+
+      <div class="footer-right">
+
+          <p class="footer-company-about">
+              <span>About the company</span>
+             Market leaders in rentals, leasing and out-right buying.
+          </p>
+
+          <div class="footer-icons">
+
+              <a href="https://www.facebook.com/domo.realestate1"><i class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com/DOMO_Realestate"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/company/domo-real-estate/"><i class="fa fa-linkedin"></i></a>
+              <a href="https://instagram.com/domo.realestate?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa fa-instagram"></i></a>
+
+          </div>
+
+      </div>
+
+  </footer>
+
+    <script src="contactus.js"></script>
+    <script src="https://kit.fontawesome.com/ffe2fa34cb.js" crossorigin="anonymous"> </script>
+  </body>
+</html>
